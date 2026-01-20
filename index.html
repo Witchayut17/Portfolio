@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="video-div">
+        <div class="vid">
+            <video loop autoplay muted plays-inline class="video">
+                <source src="wallspaper.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+    <header>
+        <a href="#Home" class="active">Home</a>
+        <nav>
+            <a href="#Profile">Profile</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Contacts">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="Home">
+        <div class="hero-info">
+            <h1>WELCOME TO WEBSITE</h1>
+            <p>I create this website up for study only</p>
+        </div>
+    </section>
+
+    <section class="profile-section" id="Profile">
+
+        <div class="profile-container">
+
+            <div class="profile-card">
+                <h1>Esport Career</h1>
+                <p>Explain about where and when i start the esport career of my life</p>
+                <video id="careervid" src="career.mp4" autoplay loop muted></video>
+                <button id="open-popup">More Details</button>
+            </div>
+
+            <div class="profile-card">
+                <h1>IDK What To Fill</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <video id="personalvid" src="personal.mp4" autoplay loop muted></video>
+                <button>More Details</button>
+            </div>
+
+            <div class="popup" id="popup">
+                <div class="popup-inner">
+                    <h2>Excellentless</h2>
+                    <p>I start my career in Esport by playing the game normally but suddenly some stranger invited me to join a little tournament and i just got luckily 1st place by chance and that's the beginning of my Esport-Career
+                    </p>
+                    <div class="career-container">
+                        <div class="popup-vid-career">
+                            <h3>Reignite 2023 Champion</h3>
+                            <video id="reignite" src="Reignite.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>Stand Your Ground 2024 Champion</h3>
+                            <video id="stand" src="stand.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>Super Mega Tournament 2024 Champion</h3>
+                            <video id="supermega" src="supermega.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>LOL Thailand Series Spring 2025 Champion</h3>
+                            <video id="spring" src="spring.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>Cross Regional 2025 2nd place</h3>
+                            <video id="cross" src="cross.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>LTS 2025 Summer Champion</h3>
+                            <video id="summer" src="summer.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>LCP WILDCARD PLAYOFF 2nd Place</h3>
+                            <video id="lcp" src="lcp.mp4"></video>
+                        </div>
+                        <div class="popup-vid-career">
+                            <h3>National Team for ECA 2026</h3>
+                            <img src="thnt.jpg" alt="">
+                        </div>
+                    </div>
+                    
+                    <button id="close-popup">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="projects-section" id="Projects">
+        <h1 class="project-header">My Projects</h1>
+
+        <div class="project-card">
+            <div class="project-imgbox">
+                <img src="project1.jpg" alt="">
+            </div>
+
+            <div class="project-info">
+                <h1>FER 2013 Model</h1>
+                <p>Training the Fer2013 Model and weight the imbalance class with hyperparameter tuning and data augmentation</p>
+                <button onclick="window.open('https://github.com/Witchayut17/Fer2013-With-5Layers-Model')"><i class="fa-solid fa-square-arrow-up-right"></i> Github</button>
+            </div>
+
+        </div>
+
+        <div class="project-card">
+            <div class="project-imgbox">
+                <img src="project2.png" alt="">
+            </div>
+
+            <div class="project-info">
+                <h1>Heart Disease Prediction</h1>
+                <p>Traning the Heart Disease Model by using dataset from UCLrivne</p>
+                <button onclick="window.open('https://github.com/Witchayut17/Heart_Disease_Prediction')"><i class="fa-solid fa-square-arrow-up-right"></i> Github</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contacts-section" id="Contacts">
+        <div class="contacts-header">
+            <h1 class="contact-header">Contact Me</h1>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
